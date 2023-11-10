@@ -170,7 +170,6 @@ main img {
 
 .videoEsa {
   border-radius: 10px;
-  padding: 20px;
 }
 
 .playEsa p {
@@ -319,8 +318,6 @@ h2 {
 .guideA {
   object-fit: cover;
   cursor: pointer;
-  width: 400px;
-  height: 300px;
   box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.766);
 }
 
@@ -510,27 +507,31 @@ footer .socialMedia img {
   }
   /* SAME CLASS FOR EXPLORE PAGE VIDEO */
   .exploreOrder {
-    padding-left: 5%;
+    padding-left: 4%;
+  }
+  .explorecontent {
+    height: auto;
   }
   .playEsa2 {
     position: relative;
-    height: 300px;
-    width: 85%;
-    padding: 40px;
+    height: 250px;
+    width: 100%;
+    padding: 0px;
   }
   .playEsa2 > iframe {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 200px;
   }
   .playEsa p {
     display: flex;
     box-shadow: none;
     font-size: 4vw;
-    padding-left: 15%;
-    padding-right: 15%;
+    margin-left: 4%;
+    margin-right: 4%;
   }
   h2 {
     font-size: 1rem;
+    padding-bottom: 20px;
   }
   .mapEsa {
     flex-direction: column;
@@ -539,8 +540,9 @@ footer .socialMedia img {
   .mapEsa2 {
     position: relative;
     height: 300px;
-    width: 85%;
-    padding: 30px;
+    width: 90%;
+    padding-left: 1px;
+    padding-bottom: 30px;
   }
   .mapEsa2 > iframe {
     width: 100%;
@@ -550,12 +552,16 @@ footer .socialMedia img {
     display: flex;
     box-shadow: none;
     font-size: 4vw;
-    padding-left: 10%;
-    padding-right: 15%;
+    margin-left: 4%;
+    margin-right: 3%;
   }
   /* PRODUCTS MOBILE */
   .artesaniasOrder P {
     font-weight: bold;
+  }
+  /* GUIDE MOBILE */
+  .guideA {
+    margin: 7PX;
   }
   /* CONTACT MOBILE */
   .contactbox {
