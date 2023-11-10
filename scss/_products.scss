@@ -1,0 +1,40 @@
+/* wonder products page */
+
+.productsInput p {
+    color: $text-color-green;
+    @include textform;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.artesaniasOrder {
+    @include contentform;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding-bottom: 40px;
+}
+
+.artesanias {
+    padding: 0;
+    margin: 20px;
+    box-shadow: 5px 5px 10px;
+    transition: 0.3s, 0.3s;
+
+    img {
+        width: 350px;
+        height: 300px;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    p {
+        color: $theme-text-color;
+        @include textform;
+        padding: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
