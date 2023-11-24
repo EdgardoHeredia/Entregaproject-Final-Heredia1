@@ -22,8 +22,19 @@ h1 {
   font-family: "Varela Round", sans-serif;
   text-align: center;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.599);
+  animation-name: tittle;
+  animation-duration: 2.2s;
+  animation-iteration-count: 1;
 }
 
+@keyframes tittle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /* MIXIN */
 /*contact page*/
 .submitreset {
@@ -107,6 +118,10 @@ nav ul li :hover {
   border-radius: 2px;
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.352);
   color: rgb(219, 235, 249);
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 8px;
+  padding-bottom: 2px;
 }
 nav ul li a:hover {
   background-color: rgba(1, 9, 60, 0.714);
@@ -430,6 +445,10 @@ footer .socialMedia img {
   padding: 5px;
   width: 30px;
   height: auto-fit;
+}
+
+.footer1 {
+  margin-top: 0px;
 }
 
 @media (max-width: 700px) {

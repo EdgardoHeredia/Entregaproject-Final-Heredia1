@@ -22,4 +22,17 @@ h1 {
     font-family: 'Varela Round', sans-serif;
     text-align: center;
     text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.599);
+    animation-name: tittle;
+    animation-duration: 2.2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes tittle {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
